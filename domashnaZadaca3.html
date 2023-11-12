@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="domashnaZadaca3.css">
+    </head>
+    <body>
+        <div class = "game-container">
+            <h1>Guess the word!</h1>
+            <div class="word-display" id="wordDisplay"></div>
+            <div>Used letters: </div>
+            <div class="used-letters" id="usedLetters"> </div>
+            <div class="letter-input">
+                <input type="text" id="letterInput" maxlength="1">
+                <button onclick="checkLetter()">Check</button>
+            </div>
+            <div class="attempts" id="attempts">Tries: 5</div>
+            <div class="result-popup" id="resultPopup"></div>
+            <button onclick="startNewGame()">New game</button>
+        </div>
+        <script src="domashnaZadaca3.js"></script>
+    </body>
+</html>
